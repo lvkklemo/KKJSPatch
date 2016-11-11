@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8424F26C1DD55CD800CEA538 /* MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424F26B1DD55CD800CEA538 /* MyAlertView.m */; };
+		8424F2711DD5671300CEA538 /* alertView_btn1_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8424F26D1DD5671300CEA538 /* alertView_btn1_normal@2x.png */; };
+		8424F2721DD5671400CEA538 /* alertView_btn1_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8424F26E1DD5671300CEA538 /* alertView_btn1_press@2x.png */; };
+		8424F2731DD5671400CEA538 /* alertView_btn2_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8424F26F1DD5671300CEA538 /* alertView_btn2_normal@2x.png */; };
+		8424F2741DD5671400CEA538 /* alertView_btn2_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8424F2701DD5671300CEA538 /* alertView_btn2_press@2x.png */; };
 		84E6509A1DD4C720000F70C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E650991DD4C720000F70C8 /* main.m */; };
 		84E6509D1DD4C720000F70C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6509C1DD4C720000F70C8 /* AppDelegate.m */; };
 		84E650A01DD4C720000F70C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6509F1DD4C720000F70C8 /* ViewController.m */; };
@@ -40,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8424F26A1DD55CD800CEA538 /* MyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertView.h; sourceTree = "<group>"; };
+		8424F26B1DD55CD800CEA538 /* MyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertView.m; sourceTree = "<group>"; };
+		8424F26D1DD5671300CEA538 /* alertView_btn1_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertView_btn1_normal@2x.png"; sourceTree = "<group>"; };
+		8424F26E1DD5671300CEA538 /* alertView_btn1_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertView_btn1_press@2x.png"; sourceTree = "<group>"; };
+		8424F26F1DD5671300CEA538 /* alertView_btn2_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertView_btn2_normal@2x.png"; sourceTree = "<group>"; };
+		8424F2701DD5671300CEA538 /* alertView_btn2_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertView_btn2_press@2x.png"; sourceTree = "<group>"; };
 		84E650951DD4C720000F70C8 /* KKJSPatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKJSPatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E650991DD4C720000F70C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E6509B1DD4C720000F70C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +134,8 @@
 				84E6509F1DD4C720000F70C8 /* ViewController.m */,
 				84E650CD1DD4C7DC000F70C8 /* ABTableViewController.h */,
 				84E650CE1DD4C7DC000F70C8 /* ABTableViewController.m */,
+				8424F26A1DD55CD800CEA538 /* MyAlertView.h */,
+				8424F26B1DD55CD800CEA538 /* MyAlertView.m */,
 				84E650A11DD4C720000F70C8 /* Main.storyboard */,
 				84E650A41DD4C720000F70C8 /* Assets.xcassets */,
 				84E650A61DD4C720000F70C8 /* LaunchScreen.storyboard */,
@@ -135,6 +148,10 @@
 		84E650981DD4C720000F70C8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8424F26D1DD5671300CEA538 /* alertView_btn1_normal@2x.png */,
+				8424F26E1DD5671300CEA538 /* alertView_btn1_press@2x.png */,
+				8424F26F1DD5671300CEA538 /* alertView_btn2_normal@2x.png */,
+				8424F2701DD5671300CEA538 /* alertView_btn2_press@2x.png */,
 				84E650D01DD4C89C000F70C8 /* main.js */,
 				84E650991DD4C720000F70C8 /* main.m */,
 			);
@@ -276,7 +293,11 @@
 			files = (
 				84E650A81DD4C720000F70C8 /* LaunchScreen.storyboard in Resources */,
 				84E650A51DD4C720000F70C8 /* Assets.xcassets in Resources */,
+				8424F2731DD5671400CEA538 /* alertView_btn2_normal@2x.png in Resources */,
 				84E650A31DD4C720000F70C8 /* Main.storyboard in Resources */,
+				8424F2741DD5671400CEA538 /* alertView_btn2_press@2x.png in Resources */,
+				8424F2721DD5671400CEA538 /* alertView_btn1_press@2x.png in Resources */,
+				8424F2711DD5671300CEA538 /* alertView_btn1_normal@2x.png in Resources */,
 				84E650D11DD4C89C000F70C8 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8424F26C1DD55CD800CEA538 /* MyAlertView.m in Sources */,
 				84E650CF1DD4C7DC000F70C8 /* ABTableViewController.m in Sources */,
 				84E650A01DD4C720000F70C8 /* ViewController.m in Sources */,
 				84E6509D1DD4C720000F70C8 /* AppDelegate.m in Sources */,
@@ -545,6 +567,7 @@
 				84E650C41DD4C720000F70C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E650C51DD4C720000F70C8 /* Build configuration list for PBXNativeTarget "KKJSPatchTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +576,7 @@
 				84E650C71DD4C720000F70C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E650C81DD4C720000F70C8 /* Build configuration list for PBXNativeTarget "KKJSPatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +585,7 @@
 				84E650CA1DD4C720000F70C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
